@@ -16,7 +16,7 @@ const App = () => {
   //console.log(expensesData)
 
   return (
-    <div className='main--container'>
+    <div className='app--container'>
       <div className='balance--container'>
         <div> 
           <p>My Balance</p>
@@ -24,15 +24,22 @@ const App = () => {
         </div>
         <img src="./src/assets/images/logo.svg" alt="" />
       </div>
-      <ExpensesBarChart chartData={expensesData}/>
-      <div className='total--container'>
-        <div>
-          <p>Total this month</p>
-          <p>$478</p>
+      <div className='main--container'>
+        <ExpensesBarChart chartData={expensesData}/>
+        <div className='total--container'>
+          <div>
+            <p>Total this month</p>
+            <p>$478</p>
+          </div>
+          <div>
+            <p>+2.4%</p>
+            <p>from last month</p>
+          </div>
         </div>
-          <p>+2.4%</p>
-          <p>from last month</p>
       </div>
+      <div className='attribution'>
+            Challenge by <a href="https://www.frontendmentor.io/home" target="_blank">Frontend Mentor.</a> Coded by kujerocoding
+        </div>
     </div>
   )
 }

@@ -20,4 +20,32 @@
 body{
   font-family: var(--FF);
   font-size: var(--FS);
+  background-color: var(--CREAM);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.balance--container{
+  background-color: var(--SOFTRED);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.main--container{
+  background-color: var(--VERYPALEORANGE);
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+
+.total--container{
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px solid var(--CREAM);
+  display: flex;
+  justify-content: space-between;
 }
