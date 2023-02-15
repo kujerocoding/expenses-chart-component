@@ -104,4 +104,9 @@ body{
   margin-top: 50px;
   text-align: center;
   font-size: .7rem;
+  color: var(--DARKBROWM);
+}
+
+.attribution > a {
+  color: var(--SOFTRED);
 }
