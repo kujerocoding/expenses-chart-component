@@ -5,7 +5,7 @@ import { Chart as ChartJS } from 'chart.js/auto'
 const ExpensesBarChart = (props) => {
    // console.log(props)
   return (
-    <div>
+    <div className='chart--container'>
       <Bar data={props.chartData}/>
     </div>
   )

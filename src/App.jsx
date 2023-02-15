@@ -15,8 +15,23 @@ const App = () => {
   //console.log(expensesData)
 
   return (
-    <div>
+    <div className='main--container'>
+      <div className='balance--container'>
+        <div> 
+          <p>My Balance</p>
+          <p>$921.48</p>
+        </div>
+        <img src="./src/assets/images/logo.svg" alt="" />
+      </div>
       <ExpensesBarChart chartData={expensesData}/>
+      <div className='total--container'>
+        <div>
+          <p>Total this month</p>
+          <p>$478</p>
+        </div>
+          <p>+2.4%</p>
+          <p>from last month</p>
+      </div>
     </div>
   )
 }
