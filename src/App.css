@@ -4,7 +4,7 @@
   --FF: 'DM Sans', sans-serif;
   --FS: 18px;
   --SOFTRED: #ec775f;
-  --CYAN: #76b5bc;
+  --CYAN: rgba(118, 181, 188);
   --DARKBROWM: #382314;
   --MEDIUMBROWN: hsl(28, 10%, 53%);
   --CREAM: hsl(27, 66%, 92%);
@@ -96,7 +96,9 @@ body{
   text-align: right;
 }
 
-
+.chart--container{
+  cursor: pointer;
+}
 
 .attribution{
   margin-top: 50px;

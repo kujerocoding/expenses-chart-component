@@ -12,7 +12,7 @@ const App = () => {
       data: ExpensesData.map(expense => expense.amount),
       backgroundColor: ['#ec775f','#ec775f','#76b5bc','#ec775f','#ec775f'],
       borderRadius: 3,
-      
+      hoverBackgroundColor: ['rgba(236, 119, 95, 0.5)','rgba(236, 119, 95, 0.5)', 'rgba(118, 181, 188, 0.5)','rgba(236, 119, 95, 0.5)']
     }]
   })
 
