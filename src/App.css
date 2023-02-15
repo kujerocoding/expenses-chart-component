@@ -69,7 +69,27 @@ body{
   border-top: 2px solid var(--CREAM);
   display: flex;
   justify-content: space-between;
+  align-items: end;
 }
+
+.text--total, .text--lastmonth{
+  color: var(--MEDIUMBROWN);
+  font-size: .8rem;
+}
+
+.text--total--amount{
+  color: var(--DARKBROWM);
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.text--percent{
+  color: var(--DARKBROWM);
+  font-weight: bold;
+  font-size: .9rem;
+  text-align: right;
+}
+
 
 .attribution{
   margin-top: 50px;

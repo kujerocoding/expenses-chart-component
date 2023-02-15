@@ -28,12 +28,12 @@ const App = () => {
         <ExpensesBarChart chartData={expensesData}/>
         <div className='total--container'>
           <div>
-            <p>Total this month</p>
-            <p>$478</p>
+            <p className='text--total'>Total this month</p>
+            <p className='text--total--amount'>$478.33</p>
           </div>
           <div>
-            <p>+2.4%</p>
-            <p>from last month</p>
+            <p className='text--percent'>+2.4%</p>
+            <p className='text--lastmonth'>from last month</p>
           </div>
         </div>
       </div>
