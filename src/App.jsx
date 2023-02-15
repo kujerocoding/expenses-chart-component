@@ -19,10 +19,10 @@ const App = () => {
     <div className='app--container'>
       <div className='balance--container'>
         <div> 
-          <p>My Balance</p>
-          <p>$921.48</p>
+          <p className='text--balance'>My Balance</p>
+          <p className='text--balance--amount'>$921.48</p>
         </div>
-        <img src="./src/assets/images/logo.svg" alt="" />
+        <img className='logo' src="./src/assets/images/logo.svg" alt="" />
       </div>
       <div className='main--container'>
         <ExpensesBarChart chartData={expensesData}/>

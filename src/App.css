@@ -27,6 +27,11 @@ body{
   height: 100vh;
 }
 
+.app--container{
+  max-width: 335px;
+  margin-inline: 20px;
+}
+
 .balance--container{
   background-color: var(--SOFTRED);
   display: flex;
@@ -34,6 +39,22 @@ body{
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
+}
+
+.text--balance{
+  color: var(--CREAM);
+  font-size: .8rem;
+  margin-bottom: 10px;
+}
+
+.text--balance--amount{
+  color: var(--VERYPALEORANGE);
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.logo{
+  width: 60px;
 }
 
 .main--container{
@@ -48,4 +69,10 @@ body{
   border-top: 2px solid var(--CREAM);
   display: flex;
   justify-content: space-between;
+}
+
+.attribution{
+  margin-top: 50px;
+  text-align: center;
+  font-size: .7rem;
 }
