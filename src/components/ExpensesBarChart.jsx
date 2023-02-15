@@ -1,11 +1,12 @@
 import React from 'react'
 import { Bar } from 'react-chartjs-2'
-import { Chart } from 'chart.js'
+import { Chart as ChartJS } from 'chart.js/auto'
 
-const ExpensesBarChart = () => {
+const ExpensesBarChart = (props) => {
+   // console.log(props)
   return (
     <div>
-      Expenses Bar Chart
+      <Bar data={props.chartData}/>
     </div>
   )
 }
