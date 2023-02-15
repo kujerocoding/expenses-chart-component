@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import ExpensesBarChart from './components/ExpensesBarChart'
 import ExpensesData from './ExpensesData'
+import './App.css'
 
 const App = () => {
 
