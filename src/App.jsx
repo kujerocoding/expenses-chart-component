@@ -1,9 +1,10 @@
 import React from 'react'
+import ExpensesBarChart from './components/ExpensesBarChart'
 
 const App = () => {
   return (
     <div>
-      App
+      <ExpensesBarChart />
     </div>
   )
 }
