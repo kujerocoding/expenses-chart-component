@@ -9,7 +9,10 @@ const App = () => {
     labels: ExpensesData.map(expense => expense.day),
     datasets: [{
       label: 'Spending - Last 7 days',
-      data: ExpensesData.map(expense => expense.amount)
+      data: ExpensesData.map(expense => expense.amount),
+      backgroundColor: ['#ec775f','#ec775f','#76b5bc','#ec775f','#ec775f'],
+      borderRadius: 3,
+      
     }]
   })
 
@@ -25,6 +28,7 @@ const App = () => {
         <img className='logo' src="./src/assets/images/logo.svg" alt="" />
       </div>
       <div className='main--container'>
+        <h3 className='chart--title'>Spending - last 7 days</h3>
         <ExpensesBarChart chartData={expensesData}/>
         <div className='total--container'>
           <div>
